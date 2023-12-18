@@ -43,7 +43,7 @@ function createMessage(value, isError = false) {
     messageSize: '16px',
     position: 'topCenter',
     backgroundColor: isError ? '#EF4040' : '#59A10D',
-    iconUrl: isError ? '../img/octagon.svg' : '../img/check.svg',
+    iconUrl: isError ? './octagon.svg' : './check.svg',
     progressBarColor: isError ? '#FFBEBE' : '#B5EA7C',
     timeout: 10000,
     targetFirst: false,
@@ -51,7 +51,7 @@ function createMessage(value, isError = false) {
     buttons: [
       [
         `<button type="button" id="izi-close-button">
-                 <img src="../public/x.svg" alt="" width="16px" height="16px" />
+                 <img src="./x.svg" alt="" width="16px" height="16px" />
               </button>`,
         function (instance, toast) {
           instance.hide({}, toast, 'buttonName');

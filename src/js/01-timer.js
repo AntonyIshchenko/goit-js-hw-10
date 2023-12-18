@@ -34,13 +34,13 @@ const inputOptions = {
         messageSize: '16px',
         position: 'topCenter',
         backgroundColor: '#EF4040',
-        iconUrl: '../img/octagon.svg',
+        iconUrl: './octagon.svg',
         timeout: 500000,
         close: false,
         buttons: [
           [
             `<button type="button" id="izi-close-button">
-                 <img src="../public/x.svg" alt="" width="16px" height="16px" />
+                 <img src="./x.svg" alt="" width="16px" height="16px" />
               </button>`,
             function (instance, toast) {
               instance.hide({}, toast, 'buttonName');
