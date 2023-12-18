@@ -18,7 +18,6 @@ formEl.addEventListener('submit', event => {
     .then(value => createMessage(value))
     .catch(error => createMessage(error, true));
 
-  //   console.log(promiseOptions);
   formEl.reset();
 });
 
