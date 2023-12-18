@@ -43,7 +43,7 @@ function createMessage(value, isError = false) {
     messageSize: '16px',
     position: 'topCenter',
     backgroundColor: isError ? '#EF4040' : '#59A10D',
-    iconUrl: isError ? '../img/octagon.svg' : '../img/check.svg',
+    iconUrl: isError ? './img/octagon.svg' : './img/check.svg',
     progressBarColor: isError ? '#FFBEBE' : '#B5EA7C',
     timeout: 10000,
     targetFirst: false,
