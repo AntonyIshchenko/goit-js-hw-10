@@ -40,7 +40,7 @@ const inputOptions = {
         buttons: [
           [
             `<button type="button" id="izi-close-button">
-                 <img src="../img/x.svg" alt="" width="16px" height="16px" />
+                 <img src="../public/x.svg" alt="" width="16px" height="16px" />
               </button>`,
             function (instance, toast) {
               instance.hide({}, toast, 'buttonName');
